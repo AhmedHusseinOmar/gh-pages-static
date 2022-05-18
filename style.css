@@ -1,0 +1,39 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.genres{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    /* flex-direction: column; */
+    
+}
+
+
+.box{
+  
+    padding: auto;
+    flex-basis: 200px;
+    /* width: 200px; */
+    height: 100px;
+  flex-grow: 1; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: larger;
+  font-weight: bold;
+}
+.horror{
+    color: aliceblue;
+    /* flex-shrink: 2; */
+}
+
+.romance{
+    flex-grow: 3;
+}
+
+.comedy{
+    flex-grow: 6;
+}
